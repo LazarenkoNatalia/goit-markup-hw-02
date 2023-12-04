@@ -18,7 +18,7 @@ ul {
 a { text-decoration: none;}
 
 .logo1 {
-    color: iris;
+    color: #4D5AE5;
     font-family: 'Raleway',sans-serif;
     font-size: 18px;
         font-weight: 700;
@@ -28,7 +28,7 @@ a { text-decoration: none;}
 }
 
 .logo2 {
-    color: navy-blue;
+    color: #2E2F42;
 font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -38,30 +38,30 @@ font-family: "Raleway", sans-serif;
 }
 
 .header-item, .header-studio {
-    color: navy-blue;
+    color: #2E2F42;
     font-weight: 500;
       
 }
 
 .contact {
-   
+color: #2E2F42;
     font-style: normal;
 }
 
 .header-item:hover, .header-item:focus,
 .header-studio:hover, .header-studio:focus,
 .contact:hover, .contact:focus {
-color: ocean;
+color:#404BBF;
 }
 
-.header-studio:activ {
-    color: ocean;
+.header-studio:active {
+    color: #404BBF;
     text-decoration: underline;
 }
 
 .hero {
     color:  #FFFF;
-    background-color: navy-blue;
+    background-color: #2E2F42;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
@@ -71,12 +71,12 @@ color: ocean;
 
 .hero-title {
     color: #FFFF;
-        background-color: navy-blue;
+        background-color: #2E2F42;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-      
+      text-align: center;
 }
 
 .hero-button {
@@ -86,12 +86,12 @@ color: ocean;
         letter-spacing: 0.04em;
 }
 .hero-button:hover, .hero-button:focus {
-    background-color: ocean;
+    background-color: #404BBF;
     color: #FFFF;
 }
 
 .sec2-title {
-color: navy-blue;
+color: #2E2F42;
 font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -99,7 +99,7 @@ font-family: Roboto;
 }
 
 .sec2-item {
-color: slate;
+color: #434455;
 }
 
 .team {
@@ -111,15 +111,16 @@ color: slate;
 }
 
 .team-title, .portfolio-title {
-color: navy-blue;
+color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
 }
 
-.team-name, .pf-title {
-color: navy-blue;
+.team-name  {
+color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -130,23 +131,42 @@ color: navy-blue;
 text-align: center;
 }
 
-.pf-item { }
+.pf-title {
+color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.pf-item { 
+    text-align: left;
+}
 
 .footer {
-    background-color: navy-blue;
-    color: cloud;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer-web {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-studio {
     font-family: 'Raleway',sans-serif;
-    color: cloud;
+    color:#F4F4FD;
     font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        letter-spacing: 0.03;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .footer-text {
-color: cloud;
+color: #F4F4FD;
 }
